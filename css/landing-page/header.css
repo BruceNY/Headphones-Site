@@ -1,0 +1,109 @@
+
+header{
+    padding:30px 20px;
+    /* background:red; */
+    margin-bottom: 50px;
+}
+
+header a{
+    color:#4C44C1;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+/* recommended to fix the clearfix bug
+on parent container(element) that contains 
+child float elements */
+header:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+header .logo{
+    display:inline-block;
+    float: left;
+    margin: 0 28px 0 0;
+}
+header .logo img{
+    width:40px;
+    
+    
+}
+header .menu{
+    display: inline-block;
+    float:left;
+    position: relative;
+    top:8px;
+}
+header .menu a{
+   text-transform: uppercase;
+}
+/*  */
+header .header-buttons a{
+    float:right;
+    color:white;
+    border-radius: 17px;
+    text-align: center;
+    padding:8px 25px;
+    text-transform: uppercase;
+    position: relative;
+    top:5px;
+    width:110px;
+    -webkit-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    -moz-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+ }
+ 
+header .header-buttons .blue-btn{
+    background:#6066f2;
+    /* margin: 0 13px 0 0; */
+}
+header .header-buttons .orange-btn{
+    
+    background:#FEA83B;
+}
+/*  */
+/* testing */
+
+/* header .header-buttons a{
+    float:right;
+    font-weight: bold;
+    
+}
+header .header-buttons .blue-btn{
+    background:#4C44C1;
+    color:white;
+    border-radius: 17px;
+    text-align: center;
+    padding:8px 25px;
+    text-transform: uppercase;
+    position: relative;
+    top:20px;
+    width:110px;
+    -webkit-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    -moz-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+     margin: 0 10px 0 0; 
+
+}
+header .header-buttons .orange-btn{
+    
+    background:#FEA83B;
+    color:white;
+    border-radius: 17px;
+    text-align: center;
+    padding:8px 25px;
+    text-transform: uppercase;
+    position: relative;
+    top:20px;
+    width:110px;
+    -webkit-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    -moz-box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    box-shadow: 7px 9px 4px -4px rgba(146,150,163,0.36);
+    
+} */
+
+/* testing */
+header .header-buttons .fa{
+    
+    margin: 0 0 0 5px;
+}

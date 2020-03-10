@@ -1,0 +1,78 @@
+#top-jumbo{
+    padding: 0 0 400px;
+    background: rgb(249,236,234); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(249,236,234,1) 14%, rgba(177,49,188,1) 50%, rgba(224,143,208,1) 79%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(249,236,234,1) 14%,rgba(177,49,188,1) 50%,rgba(224,143,208,1) 79%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(249,236,234,1) 14%,rgba(177,49,188,1) 50%,rgba(224,143,208,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#top-jumbo::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+#top-jumbo .left-side {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+#top-jumbo .left-side .large-number{
+    font-size: 300px;
+    font-weight: 600;
+    opacity: .1;
+    color:#4C44C1;
+    position:relative;
+    left: -23px;
+    z-index: 1;
+    top:48px;
+
+}
+#top-jumbo .left-side .info-container{
+        position: relative;
+        top: -50px;
+
+}
+#top-jumbo .left-side .info-container h1{
+    color:#6066f2;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+
+}
+#top-jumbo .left-side .info-container p{
+    color:#aaacaf;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+#top-jumbo .left-side .info-container .email-area{
+    background-color: white;
+    padding:20px;
+    border-radius: 35px;
+    width:85%;
+}
+#top-jumbo .left-side .info-container .email-area{
+    content: "";
+    display: table;
+    clear:both;
+}
+#top-jumbo .left-side .info-container .email-area button{
+    background-color: #6066f2;
+    padding:10px 25px;
+    border-radius: 35px;
+    width:33%;
+    float: right;
+    font-size: 1.1rem;
+    color:white;
+    text-transform: uppercase;
+}
+#top-jumbo .right-side{
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+#top-jumbo .right-side img{
+    width: 100%;
+        
+}
